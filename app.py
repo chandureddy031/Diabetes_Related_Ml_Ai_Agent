@@ -16,7 +16,7 @@ scaler = joblib.load("scaler.pkl")
 
 # Streamlit App
 def app():
-    img = Image.open("img.jpeg")
+    img = Image.open("chandu vs1.jpg")
     img = img.resize((200,200))
     st.image(img, caption="Diabetes Image", width=200)
 
